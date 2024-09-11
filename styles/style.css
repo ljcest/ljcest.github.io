@@ -1,0 +1,44 @@
+html {
+    font-size: 10px /* px表示像素 基础字号为10像素 */
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+p,
+li {
+    font-size:16px;
+    line-height: 2;
+    letter-spacing: 0.5px;
+}
+
+html {
+    background-color: rgb(109, 155, 196);
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding : 0 20px 20px 20px;
+    border: 3px solid black;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: rgb(109, 155, 196);
+    text-shadow: 3px 3px 1px black;
+}
+
+img {
+    width: 500px;
+    display: block; /* img为行级元素, 不具备类似body的块级元素的功能, 因此我们需要display: block给予其块级行为, 这样就能调制margin */
+    margin: 0 auto;
+}
+
+p#mainImg {
+    text-align: center;
+}
